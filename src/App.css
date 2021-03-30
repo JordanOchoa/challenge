@@ -1,0 +1,125 @@
+body,html {
+  margin: 0px;
+  padding: 0px;
+  background-image: linear-gradient(#FBFCFF, #F2F4FF);
+}
+.content {
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.cardContainer{
+  height: 100%;
+  display: flex;
+}
+.individualCard {
+  display: flex;
+  height: 50%;
+  padding: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (max-width: 1200px){
+  .individualCard{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40%;
+  }
+}
+.pagination {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  height: 15%;
+  align-items: center;
+  margin: auto;
+}
+.searchContainer {
+  width: 30%;
+  height: 5vh;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 3%;
+}
+.detailCardContainer {
+  width: 100%;
+  height: 90vh;
+}
+.detailContainer {
+  width: 100%;
+  height: 100%;
+}
+.detailCard2 {
+  height: 50%;
+  width: 80%;
+  margin: auto;
+}
+.descriptionCard2 {
+  height: 75%;
+  width: 80%;
+  margin: auto;
+}
+.descriptionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%;
+}
+.gridSearchContainer {
+  height: 10%;
+}
+.gridDetailCard2 {
+  padding-top: 1%;
+}
+.gridDescrptionCard2 {
+  padding-top: 1%;
+}
+.searchContainerDetail {
+  height: 50%;
+  width: 30%;
+  margin-left: auto;
+  margin-right: 5%;
+}
+.headerDetail {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.goBackButton {
+  height: 50%;
+  width: 5%;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 600px){
+  .searchContainer {
+    width: 100%;
+  }
+  .descriptionCard2{
+    height: 95%;
+  }
+  .detailCard2 {
+    height: 90%;
+  }
+  .goBackButton {
+    width: 15%;
+  }
+  .searchContainerDetail {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1000px){
+  .searchContainer {
+    width: 50%;
+  }
+  .goBackButton {
+    width: 25%;
+  }
+  .searchContainerDetail {
+    width: 60%;
+  }
+}

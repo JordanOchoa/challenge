@@ -1,0 +1,60 @@
+.card {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    box-shadow: 0px 0px 15px 0px rgba(129,129,247,0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.pokemonImage {
+    width: 50%;
+    height: auto;
+}
+.pokemonName {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #40415E;
+    margin-top: -0.2%;
+    font-weight: bold;
+}
+.pokemonId {
+    margin-top: -8%;
+    color: #40415E;
+    font-weight: bold;
+}
+.types {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+}
+.typeText {
+    text-transform: capitalize;
+    color: white;
+    font-size: 12px;
+}
+.typeTextContainer {
+    background-color: #6ee2ff;
+    height: 45%;
+    border-radius: 16px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px){
+    .typeText{
+        font-size: 10px;
+    }
+  }
